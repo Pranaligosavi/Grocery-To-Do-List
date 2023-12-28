@@ -1,0 +1,70 @@
+body {
+  background-image: url('images/gro.jpg');
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: courier, monospace;
+}
+
+form {
+  color: hsl(0, 83%, 48%);
+  font-size: 22px;
+}
+
+input[type="text"]{
+  background-color : hsl(180, 26%, 96%);
+}
+
+#addNeed {
+  background-color : hsl(180, 18%, 97%);
+  color: hsl(0, 87%, 46%);
+}
+
+#addHave {
+  background-color : hsl(180, 33%, 98%);
+  color: rgb(189, 13, 13);
+}
+
+h1 {
+  color: hsl(0, 72%, 45%);
+  font-size: 50px;
+}
+
+h2 {
+  color: #d61616;
+  font-size: 42px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+.list {
+  color: #555;
+  font-size: 22px;
+  padding: 0 !important;
+  width: 500px;
+  border: 1px solid #dedede;
+}
+.list li {
+  list-style: none;
+  background-color : #f8f8f8;
+  border-bottom: 1px dotted hsl(0, 0%, 2%);
+  text-indent: 25px;
+  height: auto;
+  padding: 10px;
+  text-transform: capitalize;
+  color: #3498db;
+}
+li a {
+  float: right;
+  text-decoration: none;
+  color: red;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), /* Webkit-based browsers */
+       (min--moz-device-pixel-ratio: 2),    /* Older Firefox browsers (prior to Firefox 16) */
+       (min-resolution: 2dppx),             /* The standard way */
+       (min-resolution: 192dpi)             /* dppx fallback */
+{
+	body {
+		background-image: url('images/gro.jpg');
+	}
+}
